@@ -43,7 +43,7 @@ layout
 
 .container-narrow { max-width: 34em; }
 .container-medium { max-width: 52em; }
-.container-medium { max-width: 58em; }
+.container-wide { max-width: 58em; }
 
 /* columns */
 .col-narrow,
@@ -54,13 +54,14 @@ wide
 ---------------------------- */
 
 @media(min-width: 38em) {
-	.row--paddinge-medium {
+
+	.row--padding-medium {
 		padding-top: 3.8889em;
 		padding-bottom: 3.8889em; 
 		/* 70px/18px */
 	}
 
-	.row--paddinge-wide {
+	.row--padding-wide {
 		padding-top: 5.5556em;
 		padding-bottom: 5.5556em; 
 		/* 100px/18px */
